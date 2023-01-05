@@ -9,7 +9,7 @@ const Header = () => {
         <li ><Link to='/blogs'>About</Link></li>
         <li ><Link to='/blogs'>Courses</Link></li>
         <li ><Link to='/blogs'>Contact</Link></li>
-        <button className="btn btn-secondary rounded-full px-8 ml-3">Button</button>
+        <button className="btn btn-secondary rounded-full px-8 ml-3">Sign in</button>
 
     </>
 
