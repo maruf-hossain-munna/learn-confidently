@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 const BottomFooter = () => {
     return (
         <div className=' bg-base-200'>
-            <footer className="footer py-6 pt-16 container mx-auto text-base-content">
-                <div className='w-72'>
+            <footer className="footer py-6 pt-16 container mx-auto text-base-content lg:px-0 px-8">
+                <div className='lg:w-72'>
                     <span className="text-2xl font-bold">About Us</span>
                     <p className=' text-lg'>
                         Learn With Maruf is a top leading edutech platform for software development. We provide online courses for majors in mobile & web development. Research & development, teaching, and community leading is our vision

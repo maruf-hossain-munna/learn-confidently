@@ -6,9 +6,9 @@ const Header = () => {
 
     const menuItems = < >
         <li ><Link to='/'>Home</Link></li>
-        <li ><Link to='/blogs'>About</Link></li>
-        <li ><Link to='/blogs'>Courses</Link></li>
-        <li ><Link to='/blogs'>Contact</Link></li>
+        <li ><Link to='/about'>About</Link></li>
+        <li ><Link to='/courses'>Courses</Link></li>
+        <li ><Link to='/contact'>Contact</Link></li>
         <button className="btn btn-secondary rounded-full px-8 ml-3">Sign in</button>
 
     </>
