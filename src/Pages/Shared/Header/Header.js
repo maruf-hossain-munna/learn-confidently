@@ -5,11 +5,12 @@ import logo from '../../../Assests/Icons/logo'
 const Header = () => {
 
     const menuItems = < >
-        <li ><Link to='/'>Home</Link></li>
+        <li className=''><Link to='/'>Home</Link></li>
         <li ><Link to='/about'>About</Link></li>
         <li ><Link to='/courses'>Courses</Link></li>
         <li ><Link to='/contact'>Contact</Link></li>
-        <button className="btn btn-secondary rounded-full px-8 ml-3">Sign in</button>
+        <Link to='/signIn'><button className="btn btn-secondary rounded-full px-8 ml-3">Sign in</button></Link>
+        
 
     </>
 
@@ -28,7 +29,7 @@ const Header = () => {
                     <Link className="btn btn-ghost normal-case text-2xl"> Learn <span className='text-pink-600 ml-2'> Confidently </span> </Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
-                    <ul className="menu menu-horizontal px-2 uppercase text-lg font-semibold">
+                    <ul className="menu menu-horizontal gap-3 px-2 uppercase text-lg font-semibold">
                         {menuItems}
                     </ul>
                 </div>

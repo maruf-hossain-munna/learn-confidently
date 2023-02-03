@@ -41,7 +41,7 @@ const BottomFooter = () => {
                 </div>
                 <div>
                     <span className="text-2xl font-bold">Subscribe Now</span>
-                    <div className="form-control w-80">
+                    <div className="form-control max-w-80">
                         <label className="label">
                             <span className="text-xl">Hi, thanks for subscribe with us.</span>
                         </label>
